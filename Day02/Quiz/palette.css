@@ -1,0 +1,61 @@
+button{
+    padding: 40px 10px 10px 10px;
+    font-size: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+.box1 {
+  color: brown;
+  background-color: #faf8ec;
+  border: 1px solid #faf8ec;
+}
+.box2 {
+  color: brown;
+  background-color: #f4efcd;
+  border: 1px solid #f4efcd;
+}
+.box3 {
+  color: brown;
+  background-color: #ebdfa2;
+  border: 1px solid #ebdfa2;
+}
+.box4 {
+  color: brown;
+  background-color: #dec666;
+  border: 1px solid #dec666;
+}
+.box5 {
+  color: brown;
+  background-color: #d3ae3c;
+  border: 1px solid #d3ae3c;
+}
+.box6 {
+  color: white;
+  background-color: #c3992f;
+  border: 1px solid #c3992f;
+}
+.box7 {
+  color: white;
+  background-color: #a87826;
+  border: 1px solid #a87826;
+}
+.box8 {
+  color: white;
+  background-color: #875921;
+  border: 1px solid #875921;
+}
+.box9 {
+  color: white;
+  background-color: #714922;
+  border: 1px solid #714922;
+}
+.box0 {
+  color: white;
+  background-color: #613d22;
+  border: 1px solid #613d22;
+}
+.box01 {
+  color: white;
+  background-color: #381f10;
+  border: 1px solid #381f10;
+}
