@@ -1,0 +1,21 @@
+.ablyFont {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fontSize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}

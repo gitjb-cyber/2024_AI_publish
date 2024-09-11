@@ -1,0 +1,17 @@
+.box {
+  /*
+    border-width: 1px;
+    border-radius: solid;
+    border-color: red;
+*/
+  border: 1px solid red;
+  .yellow {
+    border: 1px solid yellow;
+  }
+  .green {
+    border: 1px solid green;
+  }
+  .blue {
+    border: 1px solid blue;
+  }
+}

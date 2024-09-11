@@ -1,0 +1,53 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+
+    /* 자기 자식들을 가로 또는 세로롤 배치하는 스타일*/
+    display: flex;
+    /* flex가 필수있어야함 */
+    /* column : 세로, row : 가로 */
+    flex-direction: column;
+    /* gap : 자식들 사이에 간격 주기 */
+    /* gap: 10px; */
+
+
+    /* x 축 정렬 */
+    /* space-around */
+    justify-content: space-around;
+    /* y 축 정렬 */
+    align-items: start;
+}
+.test{
+    width: 100px;
+    height: 100px;
+}
+.one{
+    background-color: green;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: red;
+}
+
+.code{
+    /* x 축 */
+    justify-content: start;
+    justify-content: center;
+    justify-content: end;
+
+    /* 자식들이 공평하게 너비를 차지 */
+    justify-content: space-around;
+    /* 양 끝은 공백없이 배치 */
+    justify-content: space-between;
+    /* 동일한 공백을 형성 */
+    justify-content: space-evenly;
+
+    /* y 축 */
+    align-items: start;
+    align-items: center;
+    align-items: end;
+
+}
