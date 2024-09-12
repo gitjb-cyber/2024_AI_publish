@@ -1,0 +1,44 @@
+.coffee {
+  width: 200px;
+  height: 350px;
+  background-color: rgb(180, 180, 180);
+  padding: 20px;
+}
+
+.contents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.coffeeimg {
+  width: 200px;
+  height: 200px;
+  transition: all 0.2s;
+}
+
+.coffeeimg:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.coffeeimg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gif {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+.meun {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

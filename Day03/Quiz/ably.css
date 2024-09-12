@@ -1,0 +1,53 @@
+.ably {
+  width: 200px;
+  height: 350px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  align-items: start;
+  gap: 10px;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: start;
+  gap: 5px;
+}
+
+.abgif {
+  width: 200px;
+  height: 400px;
+  transition: all 0.2;
+}
+
+.abgif > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.sale {
+  color: red;
+  /* 폰트 두께 */
+  font-weight: 900;
+  font-size: 15px;
+}
+.sale1 {
+  color: black;
+  font-size: 15px;
+}
+.tac {
+  color: rgb(145, 145, 145);
+}
