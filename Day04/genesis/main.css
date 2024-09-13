@@ -1,0 +1,51 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(genesis.jpg);
+  background-size: cover;
+}
+.centeredBox {
+  width: 100%;
+
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+}
+.motto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.motto > h1 {
+  font-size: 20px;
+}
+.motto > h2 {
+  font-size: 66px;
+  font-weight: 700;
+}
+.motto > h3 {
+  font-size: 20px;
+}
+
+.menu {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+
+  position: relative;
+  top: 400px;
+}

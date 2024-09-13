@@ -1,0 +1,59 @@
+.subject {
+  width: 100vw;
+  background-color: black;
+}
+.sub__centeredBox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 200px 0px;
+}
+.sub__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+  color: white;
+}
+.sub__contents > h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.sub__contents > h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sub__contents > button {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  vertical-align: top;
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 12px 300px 10px 10px;
+}
+.sub__contents_car {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.car1 {
+  width: 283.667px;
+}
+.car1 > img {
+  width: 100%;
+}
+
+.car2 {
+  width: 283.667px;
+}
+.car2 > img {
+  width: 100%;
+}
+.car3 {
+  width: 283.667px;
+}
+.car3 > img {
+  width: 100%;
+}

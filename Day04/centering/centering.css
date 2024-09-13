@@ -1,0 +1,20 @@
+.one {
+  width: 100vw; /* 양쪽 최대 넓이 */
+  height: 100vh; /* 위 아래 최대 넓이 */
+  background-color: pink;
+}
+.contents {
+  width: 100%;
+  /* 아무리 넓이가 넓어도 1000px 넘지 말 것 */
+  max-width: 1000px;
+  background-color: skyblue;
+  height: 100px;
+  /* 4개 : 12 3 6 9    padding: 1px 1px 1px 1px, margin: 1px 1px 1px 1px*/
+  /* 2개 : 위아래 양옆  padding: 12px 30px,  margin: 1px 1px */
+  /* auto(중앙화 필살기) */
+  margin: 0 auto;
+}
+.two {
+}
+.three {
+}
