@@ -1,0 +1,97 @@
+.header {
+  /* 헤더 */
+  /* 좌우 공간 100% */
+  width: 100vw;
+
+  /* 스크롤 화면 top에 고정 */
+  position: fixed;
+  top: 0px;
+
+  /* 상하 25px 상자 생성*/
+  padding: 25px 0;
+  background-color: black;
+
+  /* 컨테이너 내부 위치 정렬 방향은 세로로 중앙에 배치 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  /* 로고 컨테이너의 크기 */
+  width: 100px;
+  height: 20px;
+}
+
+.logo > img {
+  /* 로고 컨테이너에 들어갈 이미지 할당 크기 */
+  /* 이미지는 컨테이너 전체 차지 */
+  width: 100%;
+  height: 100%;
+  /* 가로세로비를 유지하면서, 요소 콘텐츠 박스를 가득 채웁니다. */
+  object-fit: cover;
+}
+
+.navigation {
+  /* 헤드 베너 안의 컨테이너 설정 */
+  /* 좌우 100%, 최대 1650px*/
+  /* 바깥 여백 영역 0, 중앙 정렬 */
+  width: 100%;
+  max-width: 1650px;
+  margin: 0 auto;
+
+  /* flex 속성 컨테이너 */
+  /* 정렬 방향 세로, 모든 컨테이너가 y축 고르게 분포 */
+  /* 모든 컨테이너가 x축 가운데 분포 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation > ul {
+  /* 헤드 베너 안의 컨테이너 글자 설정 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #bbbbbb;
+  font-size: 15px;
+}
+
+.navigation__left {
+  /* 왼쪽에 설정할 컨테이너 */
+  gap: 60px;
+}
+.navigation__right {
+  /* 오른쪽에 설정할 컨테이너 */
+  gap: 40px;
+}
+
+.navigation > ul > li > i {
+  /* 검색 아이콘 설정 */
+  color: white;
+}
+
+.chat {
+  /* 채팅 이미지 설정 */
+  /* 스크롤 고정위치 설정 */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  /* 흰색, 원형, 크기 설정 */
+  background-color: white;
+  border-radius: 9999px;
+  width: 50px;
+  height: 50px;
+
+  /* 컨테이너 내부 위치 세로로 X, Y 축 가운데*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chat > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
